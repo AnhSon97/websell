@@ -1,0 +1,54 @@
+.table {
+  position: absolute;
+  background-color: rgba($color: #f3e9e1, $alpha: 0.5);
+  margin-top: 15%;
+  margin-left: 24%;
+  max-width: 500px;
+
+  table,
+  tr,
+  td,
+  th {
+    border: 3px solid black;
+    text-align: center;
+    color: black;
+  }
+  table {
+    max-width: 500px;
+    margin: auto;
+
+    button {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.carousel-item {
+  img {
+    width: 100% !important;
+  }
+  height: 500px;
+}
+
+.container {
+  h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+hr {
+  border-top: 3px solid black;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container-fluid {
+  margin-top: 20px !important;
+}

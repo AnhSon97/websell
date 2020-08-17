@@ -1,0 +1,62 @@
+.navbar {
+  background-color: white;
+  width: 100%;
+  li a {
+    color: black !important;
+  }
+
+  li a:hover {
+    color: rgb(78, 183, 245) !important;
+  }
+  .menu {
+    text-align: center;
+  }
+
+  .fa-envelope {
+    font-size: 2em;
+    color: silver;
+    margin-right: 20px;
+  }
+
+  .fa-shopping-bag{
+    @extend .fa-envelope
+  }
+
+  .fa-youtube {
+    color: rgb(255, 0, 0);
+    margin-left: 20px;
+  }
+
+  .fa-facebook{
+    margin-left: 20px;
+  }
+
+
+  .navbar-toggler-icon{
+    color: black !important;
+  }
+}
+
+.background{
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+// .navbar-toggler{
+//   margin-right: 10px !important;
+// }
+
+
