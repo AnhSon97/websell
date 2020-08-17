@@ -18,8 +18,8 @@
     margin-right: 20px;
   }
 
-  .fa-shopping-bag{
-    @extend .fa-envelope
+  .fa-shopping-bag {
+    @extend .fa-envelope;
   }
 
   .fa-youtube {
@@ -27,36 +27,16 @@
     margin-left: 20px;
   }
 
-  .fa-facebook{
+  .fa-facebook {
     margin-left: 20px;
   }
 
-
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     color: black !important;
   }
+  
 }
 
-.background{
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
+.background {
+  background-image: radial-gradient(circle, #55c888, #4ec692, #49c49c, #49c1a4, #4cbeaa);
 }
-
-// .navbar-toggler{
-//   margin-right: 10px !important;
-// }
-
-
