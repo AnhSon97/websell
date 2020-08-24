@@ -14,7 +14,7 @@
 
   .fa-envelope {
     font-size: 2em;
-    color: silver;
+    color: #86E78C;
     margin-right: 20px;
   }
 
@@ -23,7 +23,7 @@
   }
 
   .fa-youtube {
-    color: rgb(255, 0, 0);
+    color: #f32929;
     margin-left: 20px;
   }
 
@@ -34,9 +34,26 @@
   .navbar-toggler-icon {
     color: black !important;
   }
-  
+
+  .fa-envelope:hover{
+    color: #d16ba5;
+  }
 }
 
 .background {
-  background-image: radial-gradient(circle, #55c888, #4ec692, #49c49c, #49c1a4, #4cbeaa);
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #ee7386,
+    #f58966,
+    #e7a752,
+    #c8c556,
+    #b0d46a,
+    #95e286,
+    #74eea8,
+    #68f2bc,
+    #5ff6cf,
+    #5cf9e1,
+    #5ffbf1
+  );
 }
